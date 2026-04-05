@@ -2,7 +2,7 @@
 
 **Artigo:** Análise do Compromisso entre Cobertura e Eficiência Energética em Redes Móveis Metropolitanas  
 **Disciplina:** Redes Sem Fio — UFABC — 2026  
-**Responsável:** Integrante 1 — Engenheiro de Simulação
+
 
 ---
 
