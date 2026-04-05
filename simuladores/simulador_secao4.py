@@ -228,7 +228,7 @@ razao_tco      = tco_6g  / tco_4g
 # ============================================================
 
 import os
-OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'figuras') if not os.path.exists('/content') else ('/content/drive/MyDrive' if os.path.exists('/content/drive/MyDrive') else '/content')
+OUTPUT_DIR = '/content/drive/MyDrive' if os.path.exists('/content/drive/MyDrive') else '/content'
 
 energia_4g_total     = total_bs_4g   * ENERGIA_4G_KW
 energia_6g_sc_total  = total_sc_6g   * ENERGIA_6G_SC_KW

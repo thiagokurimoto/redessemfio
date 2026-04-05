@@ -303,7 +303,7 @@ COR_FUNDO = '#F7F7F2'
 BOX       = dict(boxstyle='round,pad=0.35', linewidth=1.4)
 
 
-OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'figuras') if not os.path.exists('/content') else ('/content/drive/MyDrive' if os.path.exists('/content/drive/MyDrive') else '/content')
+OUTPUT_DIR = '/mnt/user-data/outputs' if os.path.exists('/mnt/user-data/outputs') else ('/content/drive/MyDrive' if os.path.exists('/content/drive/MyDrive') else '/content')
 
 cmap_cov  = LinearSegmentedColormap.from_list("cov", ['#922B21','#E67E22','#27AE60'], N=256)
 cmap_g    = LinearSegmentedColormap.from_list("g",   ['#1A252F','#C0392B','#F39C12','#27AE60'], N=256)

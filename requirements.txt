@@ -1,6 +1,6 @@
-# Dependências — Projeto Redes Sem Fio UFABC 2026
+# Dependências — Redes Sem Fio UFABC 2026
 # Testado em Python 3.12
-# Instalar com: pip install -r requirements.txt
+# Instalar: pip install -r requirements.txt
 
 numpy==1.26.4
 matplotlib==3.8.4
